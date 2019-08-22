@@ -15,6 +15,16 @@ PostgresDiff and mongoDiff can be used to compare and produce difference of two 
 
 
 ------------------------
+You need to install postgresql-server-dev-X.Y for building a server-side extension or libpq-dev for building a client-side application
+
+sudo apt-get install -y postgis postgresql-9.3-postgis-2.1
+pip install psycopg2
+or
+
+sudo apt-get install libpq-dev python-dev
+pip install psycopg2
+
+working ->
 sudo apt-get install libpq-dev python-dev
 pip install psycopg2
 
