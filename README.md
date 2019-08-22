@@ -12,3 +12,9 @@ PgMigrator.py is to migrate postgres tables and mongoMigrator is to migrate mong
 
 PostgresDiff and mongoDiff can be used to compare and produce difference of two databases.
 
+
+
+------------------------
+sudo apt-get install libpq-dev python-dev
+pip install psycopg2
+
