@@ -18,3 +18,7 @@ PostgresDiff and mongoDiff can be used to compare and produce difference of two 
 sudo apt-get install libpq-dev python-dev
 pip install psycopg2
 
+to exit virtualenv >  deactivate
+
+
+
